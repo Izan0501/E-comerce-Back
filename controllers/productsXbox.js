@@ -2,6 +2,7 @@ const Product = require('../models/productsXbox');
 const image = require('../utils/getFileName');
 
 async function createProduct(req, res) {
+    
     const newProduct = new Product(req.body);
 
     if (req.files.image) {

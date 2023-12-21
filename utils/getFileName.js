@@ -7,4 +7,5 @@ function getFileName(file) {
 
 module.exports = {
     getFileName,
+    
 };

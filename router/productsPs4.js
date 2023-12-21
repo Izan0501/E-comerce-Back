@@ -3,6 +3,7 @@ const ProductController = require('../controllers/productsPs4');
 const api = express.Router();
 
 const multiparty = require('connect-multiparty')
+
 const md_upload = multiparty({ uploadDir: '../Server/uploads/product' });
 
 

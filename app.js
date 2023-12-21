@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 require('dotenv').config();
+
 const apiVersion = process.env.API_VERSION
 
 // create app
