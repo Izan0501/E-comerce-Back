@@ -16,6 +16,7 @@ async function createProduct(req, res) {
     } catch (error) {
         res.status(500).send({ msg: `error saving product ${error}` })
     }
+    
 };
 
 async function getProduct(req, res) {
